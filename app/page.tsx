@@ -1,3 +1,4 @@
+import About from "@/components/about";
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
 import ScrollBack from "@/components/scrollBack";
@@ -27,6 +28,7 @@ export default function Home() {
             <Hero/>
             <Projects/>
             <Skills/>
+            <About/>
             <ScrollBack/>
         </main>
     );

@@ -3,12 +3,11 @@ export const user = {
     lastName: "Tiwari",
     title: "Full Stack Developer",
     email: "shivamtiwarix9@gmail.com",
-    phone_no: "+91 1234567890",
-    address: "Delhi, India",
+    location: "Delhi, India",
     profileImageLight: "/lightme.png",
     profileImageDark: "/darkmer.png",
     description: "I am a passionate web developer with experience in building responsive and user-friendly web applications. I enjoy learning new technologies and continuously improving my skills.",
-    socialLinks: {
+    socials: {
         github: "https://github.com/Shivam5551",
         linkedin: "https://www.linkedin.com/in/shivam-tiwari-179a78283/",
     },
@@ -29,29 +28,31 @@ export const user = {
     experience: [
         {
             title: "Full Stack Developer Intern",
-            company: "Ashjoyti Technologies",
+            company: "Ashjyoti Eduserv Private Limited",
             duration: "July 2026 - Present",
             description: "Developed and maintained web applications using Next.js, React, Node.js, and MongoDB. Collaborated with cross-functional teams to design and implement new features."
         },
+        {
+            title: "Cybersecurity Intern",
+            company: "Airport Authority of India",
+            duration: "February 2026 - March 2026",
+            description: "Gained hands-on experience in cybersecurity practices, including network security, vulnerability assessment, and incident response."
+        }
     ],
     education: [
         {
             degree: "B.Tech in Computer Science and Engineering",
             institution: "Guru Gobind Singh Indraprastha University",
-            duration: "2023 - 2027",
-            percentage: null,
-            cgpa: "9.2/10",
-            description: "Studied various computer science subjects including algorithms, data structures, databases, and web development."
+            year: "2023 - 2027",
         },
         {
             degree: "High School",
             institution: "Bal Bhavan Public School, Delhi",
-            duration: "2021 - 2022",
-            percentage: "94%",
-            cgpa: null,
-            description: "Completed high school education with a focus on science and mathematics."
+            year: "2021 - 2022",
         }
     ],
+    about: `I am a full-stack developer focused on building modern and scalable web applications using JavaScript, TypeScript, React, and Next.js. I work across both frontend and backend development, using Node.js, Express.js, PostgreSQL, MongoDB, and Prisma to design robust APIs and data-driven applications.
+I am also familiar with cloud and development tools such as AWS, Docker, and Git, and use Python and C++ for programming and problem-solving. I enjoy working on real-world projects, exploring new technologies, and continuously improving my approach to building efficient and maintainable software.`,
     skills: [
         {
             title: "JavaScript",
@@ -78,10 +79,14 @@ export const user = {
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
         },
         {
+            title: "Hono.js",
+            icon: "./hono-seeklogo.svg"
+        },
+        {
             title: "MongoDB",
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
         },
-        {   
+        {
             title: "PostgreSQL",
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
         },

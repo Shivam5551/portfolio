@@ -134,6 +134,7 @@ export default function Hero() {
                         width={300}
                         height={400}
                         priority
+                        loading="eager"
                         className="h-auto object-cover dark:hidden"
                     />
                     <Image
@@ -141,6 +142,7 @@ export default function Hero() {
                         alt="Profile Dark"
                         width={300}
                         height={400}
+                        loading="eager"
                         priority
                         className="h-auto object-cover hidden dark:block"
                     />
