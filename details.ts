@@ -127,4 +127,5 @@ I am also familiar with cloud and development tools such as AWS, Docker, and Git
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
         }
     ],
+    notFound: "./not-found.png"
 }
