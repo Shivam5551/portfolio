@@ -6,7 +6,7 @@ export const user = {
     location: "Delhi, India",
     profileImageLight: "/lightme.png",
     profileImageDark: "/darkmer.png",
-    description: "I am a passionate web developer with experience in building responsive and user-friendly web applications. I enjoy learning new technologies and continuously improving my skills.",
+    description: "I am a passionate Full Stack Developer with experience in building responsive and user-friendly web applications. I enjoy learning new technologies and continuously improving my skills.",
     socials: {
         github: "https://github.com/Shivam5551",
         linkedin: "https://www.linkedin.com/in/shivam-tiwari-179a78283/",
