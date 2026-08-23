@@ -98,8 +98,10 @@ export default function ThemeToggle() {
             relative
         z-50
         flex
-        w-12
-        h-12
+        w-10
+        h-10
+        md:w-12
+        md:h-12
         items-center
         justify-center
         rounded-full

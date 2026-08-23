@@ -14,11 +14,11 @@ const containerVariants = {
 export default function Projects() {
   return (
     <motion.section
-      initial={"hidden"}
-      whileInView="show"
-      viewport={{ once: true, amount: 0.1 }}
-      transition={{ type: "spring", stiffness: 260, damping: 22 }}
-      animate={{ opacity: 1, y: 0 }}
+    initial={{ opacity: 0, scale: 0.3 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, amount: 0.1 }}
+            transition={{ duration: 0.02, ease: "linear", type: "spring" }}
+            animate={{ opacity: 1, scale: 1 }}
       id="projects"
       className="
         dark:text-yellow-50

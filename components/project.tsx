@@ -5,7 +5,7 @@ import DesktopIframe from "./desktopIframe";
 import { ArrowRight } from "lucide-react";
 
 const rowVariants = {
-  hidden: { opacity: 0, y: 50 },
+  hidden: { opacity: 0, y: 50, scale: 0.8 },
   show: {
     opacity: 1,
     y: 0,
@@ -27,6 +27,7 @@ export default function Project({
     <motion.div
       variants={rowVariants}
       whileHover={{ y: -4 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
       transition={{ type: "spring", stiffness: 260, damping: 22 }}
       className={`flex flex-col ${
         reverse ? "md:flex-row-reverse" : "md:flex-row"

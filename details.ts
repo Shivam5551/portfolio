@@ -81,6 +81,14 @@ export const user = {
             title: "MongoDB",
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
         },
+        {   
+            title: "PostgreSQL",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+        },
+        {
+            title: "Prisma",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prisma/prisma-original.svg"
+        },
         {
             title: "HTML",
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
@@ -98,8 +106,20 @@ export const user = {
             icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
         },
         {
-            title: "RESTful APIs",
-            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rest/rest-original.svg"
+            title: "Python",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+        },
+        {
+            title: "C++",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+        },
+        {
+            title: "AWS",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+        },
+        {
+            title: "Docker",
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
         }
     ],
 }

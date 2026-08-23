@@ -1,11 +1,14 @@
 import Hero from "@/components/hero";
 import Projects from "@/components/projects";
+import ScrollBack from "@/components/scrollBack";
+import Skills from "@/components/skills";
 import ThemeToggle from "@/components/ThemeToggle";
 import Topbar from "@/components/topbar";
 
 export default function Home() {
     return (
         <main
+
             className="
         min-h-screen
         flex
@@ -16,13 +19,15 @@ export default function Home() {
         dark:text-white
       "
         >
-            <div className="mb-34">
+            <div id="home" className="mb-24 md:mb-34">
                 <Topbar>
                 <ThemeToggle />
             </Topbar>
             </div>
             <Hero/>
             <Projects/>
+            <Skills/>
+            <ScrollBack/>
         </main>
     );
 }
