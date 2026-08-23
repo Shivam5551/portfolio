@@ -34,7 +34,7 @@ export default function ScrollBack() {
         <div style={{ visibility: isVisible ? "visible" : "hidden" }} className="fixed bottom-10 right-12 z-50">
             <a
                 href="#top"
-                className="relative flex items-center justify-center bg-black/10 dark:bg-white/10 text-black dark:text-white rounded-full p-3 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                className="relative backdrop-blur-2xl flex items-center justify-center bg-black/10 dark:bg-white/10 text-black dark:text-white rounded-full p-3 shadow-lg hover:shadow-xl transition-shadow duration-300"
             >
                 <svg
                     className="absolute inset-0 w-full h-full -rotate-90"

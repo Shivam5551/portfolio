@@ -50,7 +50,7 @@ export default function About() {
                 transition={{ duration: 0.4 }}
                 className="text-3xl sm:text-4xl md:text-5xl font-[Sora] font-bold mb-8 md:mb-12 text-center md:text-left"
             >
-                About Me
+                About
             </motion.h2>
 
             <motion.div
