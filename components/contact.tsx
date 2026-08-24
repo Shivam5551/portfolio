@@ -261,6 +261,7 @@ export default function Contact() {
                         whileHover={{ scale: status === "loading" ? 1 : 1.02 }}
                         whileTap={{ scale: status === "loading" ? 1 : 0.97 }}
                         className="
+                            cursor-pointer
                             flex items-center justify-center gap-2
                             mt-2 px-6 py-3
                             bg-black text-white dark:bg-white dark:text-black

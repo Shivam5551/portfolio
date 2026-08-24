@@ -31,11 +31,19 @@ export default function ThemeToggle() {
 
         // Calculate the radius required to cover
         // the entire viewport.
-        const maxX = Math.max(x, window.innerWidth - x);
+        const viewport = window.visualViewport;
 
-        const maxY = Math.max(y, window.innerHeight - y);
+        const width = viewport?.width ?? window.innerWidth;
+        const height = viewport?.height ?? window.innerHeight;
 
-        const radius = Math.sqrt(maxX * maxX + maxY * maxY);
+        const distances = [
+            Math.hypot(x, y),
+            Math.hypot(width - x, y),
+            Math.hypot(x, height - y),
+            Math.hypot(width - x, height - y),
+        ];
+
+        const radius = Math.max(...distances);
 
         document.documentElement.style.setProperty("--theme-x", `${x}px`);
 
@@ -75,9 +83,10 @@ export default function ThemeToggle() {
                     ],
                 },
                 {
-                    duration: 1000,
+                    duration: 700,
                     easing: "cubic-bezier(0.4, 0, 0.2, 1)",
                     pseudoElement: "::view-transition-new(root)",
+                    fill: "both",
                 },
             );
         });
@@ -131,7 +140,7 @@ export default function ThemeToggle() {
                     scale: 1,
                 }}
                 transition={{
-                    duration: .5,
+                    duration: 0.5,
                 }}
             >
                 {!isDark ? (
