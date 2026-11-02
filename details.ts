@@ -6,6 +6,7 @@ export const user = {
     location: "Delhi, India",
     profileImageLight: "/lightme.png",
     profileImageDark: "/darkmer.png",
+    resume: "/resume.pdf",
     description: "I am a passionate Full Stack Developer with experience in building responsive and user-friendly web applications. I enjoy learning new technologies and continuously improving my skills.",
     socials: {
         github: "https://github.com/Shivam5551",
@@ -15,13 +16,13 @@ export const user = {
         {
             title: "BookIT",
             description: "A comprehensive rental property platform built with Next.js 16, designed to revolutionize property booking in India. Similar to Airbnb but tailored for the Indian market with advanced features for both property owners and travelers.",
-            link: "bookit.repox.me",
+            link: "bookit.repox.live",
             github: "https://github.com/Shivam5551/rental-Application"
         },
         {
             title: "Linkro",
             description: " Linkro brings seamless messaging and crystal-clear video calls together in one elegant platform. Stay connected with the people who matter most.",
-            link: "linkro.repox.me",
+            link: "linkro.repox.live",
             github: "https://github.com/Shivam5551/Linkro"
         },
     ],
@@ -29,7 +30,7 @@ export const user = {
         {
             title: "Full Stack Developer Intern",
             company: "Ashjyoti Eduserv Private Limited",
-            duration: "July 2026 - Present",
+            duration: "July 2026 - September 2026",
             description: "Developed and maintained web applications using Next.js, React, Node.js, and MongoDB. Collaborated with cross-functional teams to design and implement new features."
         },
         {

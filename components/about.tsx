@@ -3,7 +3,7 @@ import { user } from "@/details";
 import Image from "next/image";
 import { motion, type Variants } from "motion/react";
 import { MapPin, GraduationCap, Briefcase } from "lucide-react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaRegFilePdf } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import SocialLink from "./socialLinks";
 
@@ -199,6 +199,11 @@ export default function About() {
                                 label="Email"
                             >
                                 <IoMdMail size={64} />
+                            </SocialLink>
+                        )}
+                        {user.resume && (
+                            <SocialLink href={user.resume} label="Resume">
+                                <FaRegFilePdf size={48} />
                             </SocialLink>
                         )}
                     </motion.div>
